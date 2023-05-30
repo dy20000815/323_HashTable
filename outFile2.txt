@@ -1,0 +1,442 @@
+Enter informationProcessing method
+original data: +	Mohammad
+hash number: 9
+HashTable[9]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[9]: (dummy, Mohammad)->(Mohammad, end)->End
+
+original data: +	Diego
+hash number: 8
+HashTable[8]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[8]: (dummy, Diego)->(Diego, end)->End
+
+original data: +	Daniel
+hash number: 12
+HashTable[12]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[12]: (dummy, Daniel)->(Daniel, end)->End
+
+original data: +	Alex
+hash number: 8
+HashTable[8]: (dummy, Diego)->(Diego, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, end)->End
+
+original data: +	AlAmin
+hash number: 6
+HashTable[6]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[6]: (dummy, AlAmin)->(AlAmin, end)->End
+
+original data: ?	AlAmin
+hash number: 6
+HashTable[6]: (dummy, AlAmin)->(AlAmin, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+Yes, the record is in the database!
+
+original data: -	AlAmin
+hash number: 6
+HashTable[6]: (dummy, AlAmin)->(AlAmin, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[6]: (dummy, end)->End
+
+original data: ?	AlAmin
+hash number: 6
+HashTable[6]: (dummy, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Cole
+hash number: 12
+HashTable[12]: (dummy, Daniel)->(Daniel, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, end)->End
+
+original data: +	Jia
+hash number: 6
+HashTable[6]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[6]: (dummy, Jia)->(Jia, end)->End
+
+original data: +	Liwen
+hash number: 0
+HashTable[0]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[0]: (dummy, Liwen)->(Liwen, end)->End
+
+original data: +	Jesse
+hash number: 11
+HashTable[11]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[11]: (dummy, Jesse)->(Jesse, end)->End
+
+original data: ?	Jesse
+hash number: 11
+HashTable[11]: (dummy, Jesse)->(Jesse, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+Yes, the record is in the database!
+
+original data: -	Jesse
+hash number: 11
+HashTable[11]: (dummy, Jesse)->(Jesse, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[11]: (dummy, end)->End
+
+original data: +	Jesse
+hash number: 11
+HashTable[11]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[11]: (dummy, Jesse)->(Jesse, end)->End
+
+original data: +	Ning
+hash number: 2
+HashTable[2]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+original data: ?	Ning
+hash number: 2
+HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+Yes, the record is in the database!
+
+original data: +	Asadbek
+hash number: 2
+HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[2]: (dummy, Asadbek)->(Asadbek, Ning)->(Ning, end)->End
+
+original data: -	Asadbek
+hash number: 2
+HashTable[2]: (dummy, Asadbek)->(Asadbek, Ning)->(Ning, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+original data: -	Asadbek
+hash number: 2
+HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+ *** Warning, data is *not* in the database!
+
+original data: *	Asadbek
+hash number: 2
+HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+op is an unrecognize operation!
+original data: +	Jesrhythm
+hash number: 8
+HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, Jesrhythm)->(Jesrhythm, end)->End
+
+original data: -	Ning
+hash number: 2
+HashTable[2]: (dummy, Ning)->(Ning, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[2]: (dummy, end)->End
+
+original data: +	Ryan
+hash number: 6
+HashTable[6]: (dummy, Jia)->(Jia, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[6]: (dummy, Jia)->(Jia, Ryan)->(Ryan, end)->End
+
+original data: +	Asadbek
+hash number: 2
+HashTable[2]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[2]: (dummy, Asadbek)->(Asadbek, end)->End
+
+original data: +	Tsering
+hash number: 4
+HashTable[4]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[4]: (dummy, Tsering)->(Tsering, end)->End
+
+original data: +	Tshetrim
+hash number: 6
+HashTable[6]: (dummy, Jia)->(Jia, Ryan)->(Ryan, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[6]: (dummy, Jia)->(Jia, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+original data: +	Yiqing
+hash number: 4
+HashTable[4]: (dummy, Tsering)->(Tsering, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[4]: (dummy, Tsering)->(Tsering, Yiqing)->(Yiqing, end)->End
+
+original data: -	Asadbek
+hash number: 2
+HashTable[2]: (dummy, Asadbek)->(Asadbek, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[2]: (dummy, end)->End
+
+original data: +	Manana
+hash number: 6
+HashTable[6]: (dummy, Jia)->(Jia, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[6]: (dummy, Jia)->(Jia, Manana)->(Manana, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+original data: +	Ivan
+hash number: 8
+HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, Jesrhythm)->(Jesrhythm, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, Ivan)->(Ivan, Jesrhythm)->(Jesrhythm, end)->End
+
+original data: +	Tania
+hash number: 7
+HashTable[7]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+original data: %	Aniss
+hash number: 7
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+op is an unrecognize operation!
+original data: ?	Erik
+hash number: 7
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Erik
+hash number: 7
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[7]: (dummy, Erik)->(Erik, Tania)->(Tania, end)->End
+
+original data: -	Erik
+hash number: 7
+HashTable[7]: (dummy, Erik)->(Erik, Tania)->(Tania, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+original data: ?	Erik
+hash number: 7
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Kevin
+hash number: 12
+HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, end)->End
+
+original data: +	Arben
+hash number: 10
+HashTable[10]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[10]: (dummy, Arben)->(Arben, end)->End
+
+original data: +	David
+hash number: 11
+HashTable[11]: (dummy, Jesse)->(Jesse, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[11]: (dummy, David)->(David, Jesse)->(Jesse, end)->End
+
+original data: +	Benjamin
+hash number: 10
+HashTable[10]: (dummy, Arben)->(Arben, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[10]: (dummy, Arben)->(Arben, Benjamin)->(Benjamin, end)->End
+
+original data: -	Fahim
+hash number: 2
+HashTable[2]: (dummy, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+ *** Warning, data is *not* in the database!
+
+original data: +	Hengtuo
+hash number: 11
+HashTable[11]: (dummy, David)->(David, Jesse)->(Jesse, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[11]: (dummy, David)->(David, Hengtuo)->(Hengtuo, Jesse)->(Jesse, end)->End
+
+original data: +	Siliang
+hash number: 0
+HashTable[0]: (dummy, Liwen)->(Liwen, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[0]: (dummy, Liwen)->(Liwen, Siliang)->(Siliang, end)->End
+
+original data: +	Seungwon
+hash number: 12
+HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, Seungwon)->(Seungwon, end)->End
+
+original data: ?	Yahav
+hash number: 4
+HashTable[4]: (dummy, Tsering)->(Tsering, Yiqing)->(Yiqing, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Jurgen
+hash number: 10
+HashTable[10]: (dummy, Arben)->(Arben, Benjamin)->(Benjamin, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[10]: (dummy, Arben)->(Arben, Benjamin)->(Benjamin, Jurgen)->(Jurgen, end)->End
+
+original data: -	Gildian
+hash number: 7
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+ *** Warning, data is *not* in the database!
+
+original data: ?	Seong
+hash number: 11
+HashTable[11]: (dummy, David)->(David, Hengtuo)->(Hengtuo, Jesse)->(Jesse, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: #	Auyon
+hash number: 12
+HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, Seungwon)->(Seungwon, end)->End
+
+op is an unrecognize operation!
+original data: +	Frederick
+hash number: 4
+HashTable[4]: (dummy, Tsering)->(Tsering, Yiqing)->(Yiqing, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[4]: (dummy, Frederick)->(Frederick, Tsering)->(Tsering, Yiqing)->(Yiqing, end)->End
+
+original data: +	Aviraj
+hash number: 11
+HashTable[11]: (dummy, David)->(David, Hengtuo)->(Hengtuo, Jesse)->(Jesse, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[11]: (dummy, Aviraj)->(Aviraj, David)->(David, Hengtuo)->(Hengtuo, Jesse)->(Jesse, end)->End
+
+original data: +	Shaxzod
+hash number: 12
+HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, Seungwon)->(Seungwon, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, Seungwon)->(Seungwon, Shaxzod)->(Shaxzod, end)->End
+
+original data: -	Imran
+hash number: 9
+HashTable[9]: (dummy, Mohammad)->(Mohammad, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+ *** Warning, data is *not* in the database!
+
+original data: +	Zai
+hash number: 9
+HashTable[9]: (dummy, Mohammad)->(Mohammad, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[9]: (dummy, Mohammad)->(Mohammad, Zai)->(Zai, end)->End
+
+original data: ?	Jonathan
+hash number: 3
+HashTable[3]: (dummy, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Sean
+hash number: 9
+HashTable[9]: (dummy, Mohammad)->(Mohammad, Zai)->(Zai, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[9]: (dummy, Mohammad)->(Mohammad, Sean)->(Sean, Zai)->(Zai, end)->End
+
+original data: -	Brandon
+hash number: 6
+HashTable[6]: (dummy, Jia)->(Jia, Manana)->(Manana, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+ *** Warning, data is *not* in the database!
+
+original data: ?	Juan
+hash number: 6
+HashTable[6]: (dummy, Jia)->(Jia, Manana)->(Manana, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!
+original data: +	Steven
+hash number: 0
+HashTable[0]: (dummy, Liwen)->(Liwen, Siliang)->(Siliang, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[0]: (dummy, Liwen)->(Liwen, Siliang)->(Siliang, Steven)->(Steven, end)->End
+
+original data: +	Tim
+hash number: 1
+HashTable[1]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[1]: (dummy, Tim)->(Tim, end)->End
+
+original data: +	Matthew
+hash number: 0
+HashTable[0]: (dummy, Liwen)->(Liwen, Siliang)->(Siliang, Steven)->(Steven, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[0]: (dummy, Liwen)->(Liwen, Matthew)->(Matthew, Siliang)->(Siliang, Steven)->(Steven, end)->End
+
+original data: +	Natasha
+hash number: 5
+HashTable[5]: (dummy, end)->End
+
+*** enter hashInsert method. Performing hashInsert
+  After hashInsert operation бн HashTable[5]: (dummy, Natasha)->(Natasha, end)->End
+
+original data: -	Natasha
+hash number: 5
+HashTable[5]: (dummy, Natasha)->(Natasha, end)->End
+
+** Inside hashDelete method. Performing hashDelete
+  After hashDelete operation бн HashTable[5]: (dummy, end)->End
+
+original data: ?	Natasha
+hash number: 5
+HashTable[5]: (dummy, end)->End
+
+** Inside hashRetrieval. Performing hashRetrieval
+*** Warning, the record is *not* in the database!

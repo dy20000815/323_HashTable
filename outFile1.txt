@@ -1,0 +1,26 @@
+HashTable[0]: (dummy, Liwen)->(Liwen, Matthew)->(Matthew, Siliang)->(Siliang, Steven)->(Steven, end)->End
+
+HashTable[1]: (dummy, Tim)->(Tim, end)->End
+
+HashTable[2]: (dummy, end)->End
+
+HashTable[3]: (dummy, end)->End
+
+HashTable[4]: (dummy, Frederick)->(Frederick, Tsering)->(Tsering, Yiqing)->(Yiqing, end)->End
+
+HashTable[5]: (dummy, end)->End
+
+HashTable[6]: (dummy, Jia)->(Jia, Manana)->(Manana, Ryan)->(Ryan, Tshetrim)->(Tshetrim, end)->End
+
+HashTable[7]: (dummy, Tania)->(Tania, end)->End
+
+HashTable[8]: (dummy, Alex)->(Alex, Diego)->(Diego, Ivan)->(Ivan, Jesrhythm)->(Jesrhythm, end)->End
+
+HashTable[9]: (dummy, Mohammad)->(Mohammad, Sean)->(Sean, Zai)->(Zai, end)->End
+
+HashTable[10]: (dummy, Arben)->(Arben, Benjamin)->(Benjamin, Jurgen)->(Jurgen, end)->End
+
+HashTable[11]: (dummy, Aviraj)->(Aviraj, David)->(David, Hengtuo)->(Hengtuo, Jesse)->(Jesse, end)->End
+
+HashTable[12]: (dummy, Cole)->(Cole, Daniel)->(Daniel, Kevin)->(Kevin, Seungwon)->(Seungwon, Shaxzod)->(Shaxzod, end)->End
+
